@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:ListView focusable="true" reorderable="true" header-title="Behavior Goals" name="behaviorGoals" show-foldout-header="true" show-bound-collection-size="false" virtualization-method="DynamicHeight" style="width: 100%;" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: initial; flex-direction: row-reverse; width: 100%; height: 32px; flex-basis: auto; justify-content: flex-start;">
+        <ui:Button text="-" parse-escape-sequences="true" display-tooltip-when-elided="true" name="removeBehavior" style="margin-left: 3px; flex-basis: auto; flex-direction: row; width: 38px; height: 17px;" />
+        <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="addBehavior" style="margin-left: 3px; flex-basis: auto; flex-direction: row; width: 38px; height: 17px; justify-content: space-around;" />
+    </ui:VisualElement>
+    <ui:ListView focusable="true" reorderable="true" header-title="Target Select Goals" show-foldout-header="true" show-bound-collection-size="false" virtualization-method="DynamicHeight" name="targetGoals" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: initial; flex-direction: row-reverse; width: 100%; height: 32px; flex-basis: auto; justify-content: flex-start;">
+        <ui:Button text="-" parse-escape-sequences="true" display-tooltip-when-elided="true" name="removeBehavior" style="margin-left: 3px; flex-basis: auto; flex-direction: row; width: 38px; height: 17px;" />
+        <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="addTarget" style="margin-left: 3px; flex-basis: auto; flex-direction: row; width: 38px; height: 17px; justify-content: space-around;" />
+    </ui:VisualElement>
+</ui:UXML>

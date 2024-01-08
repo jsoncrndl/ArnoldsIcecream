@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fce988182aa1e0b48a19af09775bf19c, type: 3}
+  m_Name: SaltUpgrade
+  m_EditorClassIdentifier: 
+  itemName: saltUpgrade
+  displayName: Salt Upgrade
+  inventorySprite: {fileID: 0}

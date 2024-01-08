@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7173611045307102964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06b26c9edfdf2e44a9948813ee6a7b68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priority: 0
+  attackRadius: 4
+  cooldown: 1
+--- !u!114 &-1271601270471671601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41eb25cb9cdcc0d46ac999aa03ca469b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priority: 0
+  Speed: 2
+  EnemyTolerance: 100
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a368bd79dac6b434e96b191b1c679709, type: 3}
+  m_Name: Spider
+  m_EditorClassIdentifier: 
+  m_behaviorGoals:
+  - {fileID: -7173611045307102964}
+  - {fileID: 7128277558587837106}
+  - {fileID: -1271601270471671601}
+  m_targetGoals:
+  - {fileID: 1329091822352712499}
+--- !u!114 &1329091822352712499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f635c0b0a90227b47a5d138e0ed13fb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priority: 0
+  sightDistance: 15
+  targetTolerance: 1
+--- !u!114 &7128277558587837106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44543d7d3ccd794a81d8aadca42d625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priority: 0
+  o: {fileID: 2123127135414506788, guid: 2a615dab7fe1bab40b15571ca1c4423d, type: 3}
+  spawn_Timer: 1.5
+  angle: 140
+  distance: 3
+  snap: 1
+  angle_offset: 0

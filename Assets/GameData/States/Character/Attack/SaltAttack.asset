@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae8d82638dd24045a931d65d3ee6dde, type: 3}
+  m_Name: SaltAttack
+  m_EditorClassIdentifier: 
+  attackPrefab: {fileID: 7815412629299949393, guid: cb7fc4324790897459e581276dea6b94, type: 3}
+  saltSound: {fileID: 8300000, guid: 5ded49add5c3cb745b83ca41e46b34ca, type: 3}
+  volume: 1
+  cooldown: 0.1

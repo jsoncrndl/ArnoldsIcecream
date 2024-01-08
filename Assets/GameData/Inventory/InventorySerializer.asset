@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcc89111119adb74788d8845493d26a8, type: 3}
+  m_Name: InventorySerializer
+  m_EditorClassIdentifier: 
+  itemList:
+  - {fileID: 11400000, guid: afc8ef896adf0204684e1b6b7cbfaa82, type: 2}
+  - {fileID: 11400000, guid: dd777b7df093ae846beabd822e35e3e5, type: 2}
+  - {fileID: 11400000, guid: b6ce731a483bfb14bbafa6c9c5ac506f, type: 2}
+  - {fileID: 11400000, guid: 452dbf5a426fdd0439b2b9dbe541c736, type: 2}
+  - {fileID: 11400000, guid: 4c0656a2f5466824d91c24952888c294, type: 2}
+  - {fileID: 11400000, guid: 74b034c57636e9849a1f502ac3bc620a, type: 2}
+  - {fileID: 11400000, guid: 734e4696f3928f744a11ea3fab16a4a3, type: 2}

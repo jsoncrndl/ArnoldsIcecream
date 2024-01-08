@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c6046cc8aa60ae48abd51a8e60b214e, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  map1: {fileID: 0}
+  map2: {fileID: 0}
+  gasoline: {fileID: 11400000, guid: be3cbec7b8a41d844b00c4b27b611b86, type: 2}
+  gateKey: {fileID: 11400000, guid: 18db41edb805a3d4aaf794ea83e49de5, type: 2}
+  gun: {fileID: 11400000, guid: afc8ef896adf0204684e1b6b7cbfaa82, type: 2}
+  whip: {fileID: 11400000, guid: 452dbf5a426fdd0439b2b9dbe541c736, type: 2}
+  salt: {fileID: 11400000, guid: dd777b7df093ae846beabd822e35e3e5, type: 2}
+  shovel: {fileID: 11400000, guid: b6ce731a483bfb14bbafa6c9c5ac506f, type: 2}
+  meleeUpgrade: {fileID: 0}
+  healthUpgrade: {fileID: 11400000, guid: 4c0656a2f5466824d91c24952888c294, type: 2}
+  gunUpgrade: {fileID: 11400000, guid: 734e4696f3928f744a11ea3fab16a4a3, type: 2}
+  saltUpgrade: {fileID: 11400000, guid: 74b034c57636e9849a1f502ac3bc620a, type: 2}
+  dashRing: {fileID: 0}

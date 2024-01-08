@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2e73548faa83594398bee3a3f6dec58, type: 3}
+  m_Name: StartMerchantInventory
+  m_EditorClassIdentifier: 
+  serializer: {fileID: 11400000, guid: 1c73729ddb8f0a64fa3b7de9ee3ca24c, type: 2}
+  inventory:
+    itemList:
+    - item: {fileID: 11400000, guid: 734e4696f3928f744a11ea3fab16a4a3, type: 2}
+      amount: 0
+      ID: 6
+    - item: {fileID: 11400000, guid: 74b034c57636e9849a1f502ac3bc620a, type: 2}
+      amount: 0
+      ID: 5
